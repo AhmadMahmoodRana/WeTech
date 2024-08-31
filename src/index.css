@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+.content-card{
+  box-shadow: 2px 2px 6px 6px whitesmoke;
+}
+.Program{
+background-image: url('https://cdn.prod.website-files.com/5dcc7f8c449e597ed83356b8/5dcc84e4449e5939b0339a09_flowbase_wave.webp');
+background-position: 50% 100%;
+background-size: cover;
+padding: 0px 7%;
+}
+.immersive-1{
+  background-image: linear-gradient(rgba(10,10,10,.4),rgba(10,10,10,.4)),url('./assets/immersive1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.immersive-2{
+  background-image: linear-gradient(rgba(10,10,10,.4),rgba(10,10,10,.4)),url('./assets/immersive2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.immersive-3{
+  background-image: linear-gradient(rgba(10,10,10,.4),rgba(10,10,10,.4)),url('./assets/immersive3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.immersive-4{
+  background-image: linear-gradient(rgba(10,10,10,.4),rgba(10,10,10,.4)),url('./assets/immersive4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.immersive-1:hover .immersive-content-div{
+  background-color: white;
+  transition: all .5s ease-in-out;
+
+}
+.immersive-1:hover .immersive-content-div h1{
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+.immersive-2:hover .immersive-content-div{
+  background-color: white;
+  transition: all .5s ease-in-out;
+
+}
+.immersive-2:hover .immersive-content-div h1{
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+.immersive-3:hover .immersive-content-div{
+  background-color: white;
+  transition: all .5s ease-in-out;
+
+}
+.immersive-3:hover .immersive-content-div h1{
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+.immersive-4:hover .immersive-content-div{
+  background-color: white;
+  transition: all .5s ease-in-out;
+
+}
+.immersive-4:hover .immersive-content-div h1{
+  color: #000;
+  transition: all .5s ease-in-out;
+}
+.immersive-content-div h1:hover{
+  color: #2391cf !important;
+}
+.counter{
+  background-image: url('./assets/counter_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-team-main:hover .background-team{
+background-color: white;
+}
+.background-team-main:hover{
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+}
+.trending-technology{
+  background-image: url('./assets/about-us_03.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+  background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url('./assets/bg_banner1.jpg'), #082032;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.free-bootcamp{
+  background-image: url('./assets/free-bootcamp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slick-slide > div{
+  margin: 0 10px;
+}
+.TrendingTechnology{
+  background-image: url('./assets/about-us_03.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-bg{
+  background-image: url('./assets/class-room.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* .about-bg:hover{
+
+} */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1025px) and (min-width:1024px) {
+ .header-h1{
+  font-size: 2rem !important;
+ }
+ .header-p{
+  width: 500px !important;
+font-size: 17px !important;
+ }
+ .header-h3{
+  width: 470px !important;
+ }
+ .header-p2{
+  font-size: 17px !important;
+ }
+}
+
+
+
+/* MEDIA 320 PX  */
+@media(max-width:426px){
+  .header-h1{
+  font-size: 24px !important;
+ }
+ .header-p{
+  width: 320px !important;
+}
+ .header-h3{
+  width: 300px !important;
+ }
+ .header-p2{
+  font-size: 14px !important;
+ }
+ /* IMMERSIVE PROGRAM */
+ .counter-content{
+  width: 130px !important;
+  padding: 10px 0;
+  
+ }
+
+}
+@media(max-width:426px){
+  .counter-content{
+    width: 180px !important;
+    padding: 10px 0;
+    
+   }
+}
